@@ -32,6 +32,15 @@ import tensorflow as tf
 import DataUtils
 
 
+"""
+This module implements sign language recognition state of the art methods.
+ - Establish 3 recurrent neural network based architecture: LSTM, Bi-LSTM and 
+    GRU.
+ - Execute a 10 fold cross validation experiment. 
+ - Methods evaluation and plots.
+"""
+
+
 def define_params(benchmarks):
     params = {}
     params['benchmark'] = benchmarks

@@ -11,6 +11,7 @@ from tensorflow.keras.utils import to_categorical
 This module implements data handling:
 - Import videos (original and augmented) from directory.
 - Data merge.
+- Key point extraction
 - Train test split. 
 """
 

@@ -35,6 +35,16 @@ import DataUtils
 import imageio
 import Banchmarks
 
+"""
+This module implements sign language recognition using triplet loss method.
+ - Establish 3 recurrent neural network based architecture: LSTM, Bi-LSTM and 
+    GRU.
+ - Execute a 10 fold cross validation experiment. Train the models using 
+ triplet loss function. 
+ - Method evaluation and plots.
+"""
+
+
 
 DATA_PATH = "/storage/users/.old/.DT/dt-fujitsu-explainability/action_dataset"
 sequence_length = 30
